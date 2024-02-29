@@ -18877,7 +18877,7 @@
             "currentEnvironmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
             "promotedFrom": null,
             "createdAt": "2024-02-29T16:07:51.245Z",
-            "updatedAt": "2024-02-29T16:08:19.197Z"
+            "updatedAt": "2024-02-29T16:13:34.990Z"
           },
           "components": [
             {
@@ -19740,132 +19740,6 @@
                   "componentId": "3f787fc9-001f-4f31-be3f-fa78739e7d23"
                 }
               ]
-            },
-            {
-              "id": "9ca30354-c014-4cc8-b2e3-988e18c9cc1c",
-              "name": "button1",
-              "type": "Button",
-              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
-              "parent": null,
-              "properties": {},
-              "general": null,
-              "styles": {},
-              "generalStyles": null,
-              "displayPreferences": {
-                "showOnDesktop": {
-                  "value": "{{true}}"
-                },
-                "showOnMobile": {
-                  "value": "{{false}}"
-                }
-              },
-              "validation": {},
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:07:50.976Z",
-              "layouts": [
-                {
-                  "id": "c9287122-bb3b-457c-8a60-24d65c5533f7",
-                  "type": "desktop",
-                  "top": 1480,
-                  "left": 90.69767441860465,
-                  "width": 3,
-                  "height": 30,
-                  "componentId": "9ca30354-c014-4cc8-b2e3-988e18c9cc1c"
-                },
-                {
-                  "id": "310ad48e-f861-4240-9664-769cf6436bf3",
-                  "type": "mobile",
-                  "top": 1480,
-                  "left": 90.69767441860465,
-                  "width": 3,
-                  "height": 30,
-                  "componentId": "9ca30354-c014-4cc8-b2e3-988e18c9cc1c"
-                }
-              ]
-            },
-            {
-              "id": "ba2cd280-0ccb-4532-9caa-c1b02c0b131e",
-              "name": "button2",
-              "type": "Button",
-              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
-              "parent": null,
-              "properties": {},
-              "general": null,
-              "styles": {},
-              "generalStyles": null,
-              "displayPreferences": {
-                "showOnDesktop": {
-                  "value": "{{true}}"
-                },
-                "showOnMobile": {
-                  "value": "{{false}}"
-                }
-              },
-              "validation": {},
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:07:50.976Z",
-              "layouts": [
-                {
-                  "id": "71029022-97ba-4ea8-b3d7-49d6ce717048",
-                  "type": "desktop",
-                  "top": 1480,
-                  "left": 79.06976744186046,
-                  "width": 3,
-                  "height": 30,
-                  "componentId": "ba2cd280-0ccb-4532-9caa-c1b02c0b131e"
-                },
-                {
-                  "id": "b08cc453-05f6-4141-a7d7-0d6f14e16582",
-                  "type": "mobile",
-                  "top": 1480,
-                  "left": 79.06976744186046,
-                  "width": 3,
-                  "height": 30,
-                  "componentId": "ba2cd280-0ccb-4532-9caa-c1b02c0b131e"
-                }
-              ]
-            },
-            {
-              "id": "e0ee7050-2623-4f6b-a295-501fe2520397",
-              "name": "button3",
-              "type": "Button",
-              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
-              "parent": null,
-              "properties": {},
-              "general": null,
-              "styles": {},
-              "generalStyles": null,
-              "displayPreferences": {
-                "showOnDesktop": {
-                  "value": "{{true}}"
-                },
-                "showOnMobile": {
-                  "value": "{{false}}"
-                }
-              },
-              "validation": {},
-              "createdAt": "2024-02-29T16:08:19.171Z",
-              "updatedAt": "2024-02-29T16:08:19.171Z",
-              "layouts": [
-                {
-                  "id": "e51ea8f8-8887-479b-80a3-299a1bcc0551",
-                  "type": "desktop",
-                  "top": 1480,
-                  "left": 65.11627906976744,
-                  "width": 3,
-                  "height": 30,
-                  "componentId": "e0ee7050-2623-4f6b-a295-501fe2520397"
-                },
-                {
-                  "id": "19668242-ade6-4b7b-9692-0571230eedcf",
-                  "type": "mobile",
-                  "top": 1480,
-                  "left": 65.11627906976744,
-                  "width": 3,
-                  "height": 30,
-                  "componentId": "e0ee7050-2623-4f6b-a295-501fe2520397"
-                }
-              ]
             }
           ],
           "pages": [
@@ -19965,30 +19839,289 @@
               "updatedAt": "2024-02-29T16:07:50.976Z"
             },
             {
-              "id": "f9304284-a630-4203-9526-e3f2ef5d9226",
-              "name": "orderStatusDistribution",
+              "id": "e98b4f88-7ac9-4e2d-970c-e0185212a514",
+              "name": "salesPerYear",
               "options": {
-                "code": "data = queries.getCustomerOrders.data;\n\nformat = {\n  data: [\n    {\n      type: \"pie\",\n      labels: [],\n      values: [],\n      textinfo: \"label+percent\",\n      textposition: \"inside\",\n      textfont: {\n        color: \"#ffffff\",\n        size: 14,\n      },\n      marker: {\n        colors: [],\n      },\n    },\n  ],\n  layout: {\n    title: \"\",\n    showlegend: false,\n    height: 500,\n    width: 700,\n    margin: {\n      l: 50,\n      r: 50,\n      t: 50,\n      b: 50,\n    },\n  },\n};\n\ndata.forEach((order) => {\n  format.data[0].labels.push(`Prod. #${order.product_id}`);\n  format.data[0].values.push(parseFloat(order.total_price.toFixed(2)));\n});\n\nreturn format;",
-                "hasParamSupport": true,
-                "parameters": [],
                 "mode": "sql",
-                "query": "SELECT\n    O_ORDERSTATUS AS orderStatus,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nGROUP BY\n    O_ORDERSTATUS\nORDER BY\n    O_ORDERSTATUS;",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "SELECT\n    EXTRACT(YEAR FROM o_orderdate)+25 AS YEAR,\n    COUNT(*) AS order_count\nFROM\n    ORDERS\nGROUP BY\n    EXTRACT(YEAR FROM o_orderdate)\nORDER BY\n    EXTRACT(YEAR FROM o_orderdate);",
                 "runOnPageLoad": true,
-                "events": [
-                  {
-                    "eventId": "onDataQuerySuccess",
-                    "actionId": "run-query",
-                    "message": "Hello world!",
-                    "alertType": "info",
-                    "queryName": "runjs1",
-                    "parameters": {}
-                  }
-                ]
+                "transformation": "return data.map((row) => ({x: row.YEAR, y: row.ORDER_COUNT}));"
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.987Z"
+            },
+            {
+              "id": "9f91e086-b5b9-4765-8f7a-47bb2fe472b6",
+              "name": "orderPriorityDistribution",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    O_ORDERPRIORITY AS orderPriority,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nGROUP BY\n    O_ORDERPRIORITY\nORDER BY\n    O_ORDERPRIORITY;",
+                "transformation": "return data.map((row) => ({x: row.ORDERPRIORITY, y: row.ORDERCOUNT}));",
+                "runOnPageLoad": true
               },
               "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
               "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.233Z"
+              "updatedAt": "2024-02-29T16:13:34.101Z"
+            },
+            {
+              "id": "f0ec887d-cd5e-4915-b3de-15c072dc71dd",
+              "name": "salesPerYear",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "SELECT\n    EXTRACT(YEAR FROM o_orderdate)+25 AS YEAR,\n    COUNT(*) AS order_count\nFROM\n    ORDERS\nGROUP BY\n    EXTRACT(YEAR FROM o_orderdate)\nORDER BY\n    EXTRACT(YEAR FROM o_orderdate);",
+                "runOnPageLoad": true,
+                "transformation": "return data.map((row) => ({x: row.YEAR, y: row.ORDER_COUNT}));"
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.308Z"
+            },
+            {
+              "id": "688733ac-5538-4207-95c3-ec6771a5d6da",
+              "name": "orderStatusDistributionChartWithColors",
+              "options": {
+                "code": "function generateShadesOfColor(baseColor, numShades) {\n  const match = baseColor.match(/^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i);\n  if (!match) {\n    throw new Error(\n      \"Invalid color format. Please use hexadecimal color notation.\"\n    );\n  }\n\n  const [, r, g, b] = match.map((hex) => parseInt(hex, 16));\n\n  const shades = [];\n  for (let i = 0; i < numShades; i++) {\n    const newR = Math.floor(r * (1 - i / numShades));\n    const newG = Math.floor(g * (1 - i / numShades));\n    const newB = Math.floor(b * (1 - i / numShades));\n\n    const shade = `#${newR.toString(16).padStart(2, \"0\")}${newG\n      .toString(16)\n      .padStart(2, \"0\")}${newB.toString(16).padStart(2, \"0\")}`;\n    shades.push(shade);\n  }\n\n  return shades;\n}\n\ndata = queries.orderStatusDistributionChart.data;\nconst baseColor = \"#2f54b7\";\nconst numShades = data.data[0].values.length;\nconst shades = generateShadesOfColor(baseColor, numShades);\ndata.data[0].marker.colors = shades;\nreturn data;",
+                "hasParamSupport": true,
+                "parameters": []
+              },
+              "dataSourceId": "8bee3bcd-94c2-4b25-aa30-2e4d7bd59e0e",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "494d723b-d5f6-4dd6-b8a7-c024caeed7e1",
+              "name": "avgOrderValueCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:34.414Z"
+            },
+            {
+              "id": "5d3720f5-8592-4a0b-b507-53a94156d248",
+              "name": "orderPriorityDistribution",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    O_ORDERPRIORITY AS orderPriority,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nGROUP BY\n    O_ORDERPRIORITY\nORDER BY\n    O_ORDERPRIORITY;",
+                "transformation": "return data.map((row) => ({x: row.ORDERPRIORITY, y: row.ORDERCOUNT}));",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:32.731Z"
+            },
+            {
+              "id": "0c7e30c6-5460-4810-afd4-5596caa560a0",
+              "name": "totalClerksPrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:34.203Z"
+            },
+            {
+              "id": "a693763f-8bf6-4bc5-b102-691e429db233",
+              "name": "totalCustomersCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(DISTINCT O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.631Z"
+            },
+            {
+              "id": "50fb3e2e-e49e-4c1b-8001-700fdecb2310",
+              "name": "totalCustomersCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(DISTINCT O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:34.369Z"
+            },
+            {
+              "id": "dd306830-f3ab-47ba-9f5d-b1846c7e8c70",
+              "name": "revenueCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:32.997Z"
+            },
+            {
+              "id": "43a318b5-692a-4c23-851f-2d525247b874",
+              "name": "revenuePrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:34.293Z"
+            },
+            {
+              "id": "7a2e10ea-3ed5-4070-b0d9-5fc5f3cf0f3c",
+              "name": "totalClerksCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.370Z"
+            },
+            {
+              "id": "56806ac0-d4c7-484d-b6ca-96995d7ed176",
+              "name": "avgOrderValuePrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.530Z"
+            },
+            {
+              "id": "bdb2f5b6-133a-4258-abd0-7460194db8e1",
+              "name": "salesPerMonthCurrentYear",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n),\nMonthlyData AS (\n    SELECT\n        EXTRACT(MONTH FROM o_orderdate) AS Month,\n        COUNT(*) AS NumberOfOrders\n    FROM ORDERS\n    WHERE EXTRACT(YEAR FROM o_orderdate) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\n    GROUP BY EXTRACT(MONTH FROM o_orderdate)\n    ORDER BY EXTRACT(MONTH FROM o_orderdate)\n),\nAllMonths AS (\n    SELECT 1 AS MonthNum, 'Jan' AS MonthName\n    UNION ALL SELECT 2, 'Feb'\n    UNION ALL SELECT 3, 'Mar'\n    UNION ALL SELECT 4, 'Apr'\n    UNION ALL SELECT 5, 'May'\n    UNION ALL SELECT 6, 'Jun'\n    UNION ALL SELECT 7, 'Jul'\n    UNION ALL SELECT 8, 'Aug'\n    UNION ALL SELECT 9, 'Sep'\n    UNION ALL SELECT 10, 'Oct'\n    UNION ALL SELECT 11, 'Nov'\n    UNION ALL SELECT 12, 'Dec'\n)\nSELECT\n    AllMonths.MonthName,\n    COALESCE(MonthlyData.NumberOfOrders, 0) AS TotalOrders\nFROM\n    AllMonths\nLEFT JOIN MonthlyData ON MonthlyData.Month = AllMonths.MonthNum;",
+                "runOnPageLoad": true,
+                "transformation": "return data.map((row) => ({x: row.MONTHNAME, y: row.TOTALORDERS}));"
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.562Z"
+            },
+            {
+              "id": "452ae2aa-5d1a-47ec-b604-38c58ba8782e",
+              "name": "totalClerksCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.675Z"
+            },
+            {
+              "id": "4bdb84e6-6b42-410e-a593-3a8d7c5d7f08",
+              "name": "revenuePrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.686Z"
+            },
+            {
+              "id": "68b9553e-b037-4d87-a11c-aa481c47ad1e",
+              "name": "avgOrderValuePrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.731Z"
+            },
+            {
+              "id": "93117e6e-e03a-4258-a3fd-3bbea0c69ae7",
+              "name": "totalCustomersPrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "runOnPageLoad": true,
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};"
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:13:33.864Z"
             },
             {
               "id": "9e901566-643c-47f8-a106-3f4b28588cdf",
@@ -20014,116 +20147,33 @@
               "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
               "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.676Z"
+              "updatedAt": "2024-02-29T16:13:34.056Z"
             },
             {
-              "id": "68b9553e-b037-4d87-a11c-aa481c47ad1e",
-              "name": "avgOrderValuePrevMonth",
+              "id": "f9304284-a630-4203-9526-e3f2ef5d9226",
+              "name": "orderStatusDistribution",
               "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.383Z"
-            },
-            {
-              "id": "e98b4f88-7ac9-4e2d-970c-e0185212a514",
-              "name": "salesPerYear",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "SELECT\n    EXTRACT(YEAR FROM o_orderdate)+25 AS YEAR,\n    COUNT(*) AS order_count\nFROM\n    ORDERS\nGROUP BY\n    EXTRACT(YEAR FROM o_orderdate)\nORDER BY\n    EXTRACT(YEAR FROM o_orderdate);",
-                "runOnPageLoad": true,
-                "transformation": "return data.map((row) => ({x: row.YEAR, y: row.ORDER_COUNT}));"
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.571Z"
-            },
-            {
-              "id": "9f91e086-b5b9-4765-8f7a-47bb2fe472b6",
-              "name": "orderPriorityDistribution",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    O_ORDERPRIORITY AS orderPriority,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nGROUP BY\n    O_ORDERPRIORITY\nORDER BY\n    O_ORDERPRIORITY;",
-                "transformation": "return data.map((row) => ({x: row.ORDERPRIORITY, y: row.ORDERCOUNT}));",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.445Z"
-            },
-            {
-              "id": "f0ec887d-cd5e-4915-b3de-15c072dc71dd",
-              "name": "salesPerYear",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "SELECT\n    EXTRACT(YEAR FROM o_orderdate)+25 AS YEAR,\n    COUNT(*) AS order_count\nFROM\n    ORDERS\nGROUP BY\n    EXTRACT(YEAR FROM o_orderdate)\nORDER BY\n    EXTRACT(YEAR FROM o_orderdate);",
-                "runOnPageLoad": true,
-                "transformation": "return data.map((row) => ({x: row.YEAR, y: row.ORDER_COUNT}));"
-              },
-              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.603Z"
-            },
-            {
-              "id": "688733ac-5538-4207-95c3-ec6771a5d6da",
-              "name": "orderStatusDistributionChartWithColors",
-              "options": {
-                "code": "function generateShadesOfColor(baseColor, numShades) {\n  const match = baseColor.match(/^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i);\n  if (!match) {\n    throw new Error(\n      \"Invalid color format. Please use hexadecimal color notation.\"\n    );\n  }\n\n  const [, r, g, b] = match.map((hex) => parseInt(hex, 16));\n\n  const shades = [];\n  for (let i = 0; i < numShades; i++) {\n    const newR = Math.floor(r * (1 - i / numShades));\n    const newG = Math.floor(g * (1 - i / numShades));\n    const newB = Math.floor(b * (1 - i / numShades));\n\n    const shade = `#${newR.toString(16).padStart(2, \"0\")}${newG\n      .toString(16)\n      .padStart(2, \"0\")}${newB.toString(16).padStart(2, \"0\")}`;\n    shades.push(shade);\n  }\n\n  return shades;\n}\n\ndata = queries.orderStatusDistributionChart.data;\nconst baseColor = \"#2f54b7\";\nconst numShades = data.data[0].values.length;\nconst shades = generateShadesOfColor(baseColor, numShades);\ndata.data[0].marker.colors = shades;\nreturn data;",
+                "code": "data = queries.getCustomerOrders.data;\n\nformat = {\n  data: [\n    {\n      type: \"pie\",\n      labels: [],\n      values: [],\n      textinfo: \"label+percent\",\n      textposition: \"inside\",\n      textfont: {\n        color: \"#ffffff\",\n        size: 14,\n      },\n      marker: {\n        colors: [],\n      },\n    },\n  ],\n  layout: {\n    title: \"\",\n    showlegend: false,\n    height: 500,\n    width: 700,\n    margin: {\n      l: 50,\n      r: 50,\n      t: 50,\n      b: 50,\n    },\n  },\n};\n\ndata.forEach((order) => {\n  format.data[0].labels.push(`Prod. #${order.product_id}`);\n  format.data[0].values.push(parseFloat(order.total_price.toFixed(2)));\n});\n\nreturn format;",
                 "hasParamSupport": true,
-                "parameters": []
-              },
-              "dataSourceId": "8bee3bcd-94c2-4b25-aa30-2e4d7bd59e0e",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:07:50.976Z"
-            },
-            {
-              "id": "dd306830-f3ab-47ba-9f5d-b1846c7e8c70",
-              "name": "revenueCurrentMonth",
-              "options": {
+                "parameters": [],
                 "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
-                "runOnPageLoad": true
+                "query": "SELECT\n    O_ORDERSTATUS AS orderStatus,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nGROUP BY\n    O_ORDERSTATUS\nORDER BY\n    O_ORDERSTATUS;",
+                "runOnPageLoad": true,
+                "events": [
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "runjs1",
+                    "parameters": {}
+                  }
+                ]
               },
               "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
               "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.531Z"
-            },
-            {
-              "id": "43a318b5-692a-4c23-851f-2d525247b874",
-              "name": "revenuePrevMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:01.399Z"
+              "updatedAt": "2024-02-29T16:13:34.075Z"
             },
             {
               "id": "75394628-4976-486b-9bd2-6ea179754d2b",
@@ -20139,119 +20189,7 @@
               "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
               "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.210Z"
-            },
-            {
-              "id": "7a2e10ea-3ed5-4070-b0d9-5fc5f3cf0f3c",
-              "name": "totalClerksCurrentMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.688Z"
-            },
-            {
-              "id": "494d723b-d5f6-4dd6-b8a7-c024caeed7e1",
-              "name": "avgOrderValueCurrentMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.692Z"
-            },
-            {
-              "id": "5d3720f5-8592-4a0b-b507-53a94156d248",
-              "name": "orderPriorityDistribution",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    O_ORDERPRIORITY AS orderPriority,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nGROUP BY\n    O_ORDERPRIORITY\nORDER BY\n    O_ORDERPRIORITY;",
-                "transformation": "return data.map((row) => ({x: row.ORDERPRIORITY, y: row.ORDERCOUNT}));",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.682Z"
-            },
-            {
-              "id": "452ae2aa-5d1a-47ec-b604-38c58ba8782e",
-              "name": "totalClerksCurrentMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:01.883Z"
-            },
-            {
-              "id": "bdb2f5b6-133a-4258-abd0-7460194db8e1",
-              "name": "salesPerMonthCurrentYear",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n),\nMonthlyData AS (\n    SELECT\n        EXTRACT(MONTH FROM o_orderdate) AS Month,\n        COUNT(*) AS NumberOfOrders\n    FROM ORDERS\n    WHERE EXTRACT(YEAR FROM o_orderdate) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\n    GROUP BY EXTRACT(MONTH FROM o_orderdate)\n    ORDER BY EXTRACT(MONTH FROM o_orderdate)\n),\nAllMonths AS (\n    SELECT 1 AS MonthNum, 'Jan' AS MonthName\n    UNION ALL SELECT 2, 'Feb'\n    UNION ALL SELECT 3, 'Mar'\n    UNION ALL SELECT 4, 'Apr'\n    UNION ALL SELECT 5, 'May'\n    UNION ALL SELECT 6, 'Jun'\n    UNION ALL SELECT 7, 'Jul'\n    UNION ALL SELECT 8, 'Aug'\n    UNION ALL SELECT 9, 'Sep'\n    UNION ALL SELECT 10, 'Oct'\n    UNION ALL SELECT 11, 'Nov'\n    UNION ALL SELECT 12, 'Dec'\n)\nSELECT\n    AllMonths.MonthName,\n    COALESCE(MonthlyData.NumberOfOrders, 0) AS TotalOrders\nFROM\n    AllMonths\nLEFT JOIN MonthlyData ON MonthlyData.Month = AllMonths.MonthNum;",
-                "runOnPageLoad": true,
-                "transformation": "return data.map((row) => ({x: row.MONTHNAME, y: row.TOTALORDERS}));"
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.602Z"
-            },
-            {
-              "id": "a42b7744-e207-481a-b506-f94a1a0d107b",
-              "name": "avgOrderValueCurrentMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.014Z"
-            },
-            {
-              "id": "cef67d76-cc27-4a89-a23d-583b4cd90c62",
-              "name": "revenueCurrentMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:01.140Z"
+              "updatedAt": "2024-02-29T16:13:34.087Z"
             },
             {
               "id": "90605a9f-a85a-423d-949d-49b80b7a67a7",
@@ -20267,23 +20205,7 @@
               "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
               "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:01.488Z"
-            },
-            {
-              "id": "4bdb84e6-6b42-410e-a593-3a8d7c5d7f08",
-              "name": "revenuePrevMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:01.644Z"
+              "updatedAt": "2024-02-29T16:13:34.149Z"
             },
             {
               "id": "d43a17b7-dcf4-4795-8fa5-c11e3aaf3d73",
@@ -20299,87 +20221,39 @@
               "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
               "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.161Z"
+              "updatedAt": "2024-02-29T16:13:34.200Z"
             },
             {
-              "id": "50fb3e2e-e49e-4c1b-8001-700fdecb2310",
-              "name": "totalCustomersCurrentMonth",
+              "id": "cef67d76-cc27-4a89-a23d-583b4cd90c62",
+              "name": "revenueCurrentMonth",
               "options": {
                 "mode": "sql",
                 "transformationLanguage": "javascript",
                 "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(DISTINCT O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};",
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
                 "runOnPageLoad": true
               },
               "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
               "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.438Z"
+              "updatedAt": "2024-02-29T16:13:34.272Z"
             },
             {
-              "id": "56806ac0-d4c7-484d-b6ca-96995d7ed176",
-              "name": "avgOrderValuePrevMonth",
+              "id": "a42b7744-e207-481a-b506-f94a1a0d107b",
+              "name": "avgOrderValueCurrentMonth",
               "options": {
                 "mode": "sql",
                 "transformationLanguage": "javascript",
                 "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
                 "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
                 "runOnPageLoad": true
               },
-              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.607Z"
-            },
-            {
-              "id": "93117e6e-e03a-4258-a3fd-3bbea0c69ae7",
-              "name": "totalCustomersPrevMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
-                "runOnPageLoad": true,
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};"
-              },
               "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
               "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.652Z"
-            },
-            {
-              "id": "0c7e30c6-5460-4810-afd4-5596caa560a0",
-              "name": "totalClerksPrevMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.654Z"
-            },
-            {
-              "id": "a693763f-8bf6-4bc5-b102-691e429db233",
-              "name": "totalCustomersCurrentMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(DISTINCT O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
-              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
-              "createdAt": "2024-02-29T16:07:50.976Z",
-              "updatedAt": "2024-02-29T16:08:02.680Z"
+              "updatedAt": "2024-02-29T16:13:34.431Z"
             }
           ],
           "dataSources": [
@@ -39327,7 +39201,7 @@
               "currentEnvironmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
               "promotedFrom": null,
               "createdAt": "2024-02-29T16:07:51.245Z",
-              "updatedAt": "2024-02-29T16:08:19.197Z"
+              "updatedAt": "2024-02-29T16:13:34.990Z"
             }
           ],
           "appEnvironments": [
