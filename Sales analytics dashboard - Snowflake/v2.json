@@ -20,8 +20,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2024-02-29T16:04:45.450Z",
           "editingVersion": {
-            "id": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-            "name": "v1",
+            "id": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+            "name": "v2",
             "definition": {
               "showViewerNavigation": false,
               "homePageId": "cbd7f186-e2c5-4443-97c6-ccb0e7f37f38",
@@ -18872,19 +18872,19 @@
               "backgroundFxQuery": ""
             },
             "showViewerNavigation": false,
-            "homePageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+            "homePageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
             "appId": "8995f877-92f8-445d-a47b-6f77aeae7147",
             "currentEnvironmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
             "promotedFrom": null,
-            "createdAt": "2024-02-29T16:04:44.767Z",
-            "updatedAt": "2024-02-29T16:06:54.286Z"
+            "createdAt": "2024-02-29T16:07:51.245Z",
+            "updatedAt": "2024-02-29T16:08:19.197Z"
           },
           "components": [
             {
-              "id": "ad0713eb-a42c-48bd-9068-9d6af2b62e3f",
+              "id": "602dd3cf-c621-4305-9d61-3d9d8e06e0c4",
               "name": "container3",
               "type": "Container",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {
                 "visible": {
@@ -18924,26 +18924,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "3a5fc0c6-7cfc-4e8e-aacb-090b904c4fc4",
+                  "id": "c9473976-4c31-4b11-98a0-5d4bd604f1b0",
                   "type": "desktop",
                   "top": 0,
                   "left": 0,
                   "width": 43,
                   "height": 70,
-                  "componentId": "ad0713eb-a42c-48bd-9068-9d6af2b62e3f"
+                  "componentId": "602dd3cf-c621-4305-9d61-3d9d8e06e0c4"
                 }
               ]
             },
             {
-              "id": "f7feb0c7-9f54-4b7a-a2c7-2fc3e25c739a",
+              "id": "6d61baf5-9383-432e-ac9f-8ec296f10393",
               "name": "text51",
               "type": "Text",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
-              "parent": "ad0713eb-a42c-48bd-9068-9d6af2b62e3f",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
+              "parent": "602dd3cf-c621-4305-9d61-3d9d8e06e0c4",
               "properties": {
                 "text": {
                   "value": "B R A N D"
@@ -19013,26 +19013,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "2660172b-ce64-4c07-aeda-a12fb3c04169",
+                  "id": "01f35d63-9aec-4926-8fef-ebbda735379f",
                   "type": "desktop",
                   "top": 10,
                   "left": 2.3255827912519793,
                   "width": 6,
                   "height": 40,
-                  "componentId": "f7feb0c7-9f54-4b7a-a2c7-2fc3e25c739a"
+                  "componentId": "6d61baf5-9383-432e-ac9f-8ec296f10393"
                 }
               ]
             },
             {
-              "id": "b3da9edd-aa6e-4b3a-bbdf-f1c71e13ef9f",
+              "id": "122f6fbf-874c-48dd-ad4e-a7d86aaf9c02",
               "name": "text64",
               "type": "Text",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
-              "parent": "ad0713eb-a42c-48bd-9068-9d6af2b62e3f",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
+              "parent": "602dd3cf-c621-4305-9d61-3d9d8e06e0c4",
               "properties": {
                 "text": {
                   "value": "Sales Analytics"
@@ -19103,25 +19103,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "4c24baf6-8f40-40ca-bfc0-7a35340415b7",
+                  "id": "69df1c07-df49-4966-8c95-55f29d8fa714",
                   "type": "desktop",
                   "top": 10,
                   "left": 67.44186626637374,
                   "width": 12,
                   "height": 40,
-                  "componentId": "b3da9edd-aa6e-4b3a-bbdf-f1c71e13ef9f"
+                  "componentId": "122f6fbf-874c-48dd-ad4e-a7d86aaf9c02"
                 }
               ]
             },
             {
-              "id": "5d826085-1ca9-45b0-a3b5-9c5eb57b027f",
+              "id": "54ce7e0f-af52-404b-8685-ab76052159fb",
               "name": "statistics9",
               "type": "Statistics",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {
                 "primaryValueLabel": {
@@ -19180,25 +19180,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "81ad5cde-f31e-4746-8eff-dbb24056fe25",
+                  "id": "e132cd86-0916-4dfa-8d69-e2f805cda60f",
                   "type": "desktop",
                   "top": 100,
                   "left": 74.41860707603433,
                   "width": 9.999999999999998,
                   "height": 170,
-                  "componentId": "5d826085-1ca9-45b0-a3b5-9c5eb57b027f"
+                  "componentId": "54ce7e0f-af52-404b-8685-ab76052159fb"
                 }
               ]
             },
             {
-              "id": "c56fb298-c9d5-4643-9b2c-a125cd8d835a",
+              "id": "14ddc891-f832-4420-b726-7bccf98f4a52",
               "name": "chart5",
               "type": "Chart",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {
                 "title": {
@@ -19259,25 +19259,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "12341432-2d98-424a-ab65-13bd0f1aeb3d",
+                  "id": "7dece126-1f2d-41ee-81a4-5b224d996f21",
                   "type": "desktop",
                   "top": 680.0000762939453,
                   "left": 2.325582092183914,
                   "width": 41,
                   "height": 370,
-                  "componentId": "c56fb298-c9d5-4643-9b2c-a125cd8d835a"
+                  "componentId": "14ddc891-f832-4420-b726-7bccf98f4a52"
                 }
               ]
             },
             {
-              "id": "7f1e2b65-6ee7-4571-b2a3-cfbbeaa675ee",
+              "id": "68df5337-a043-4207-81ab-a2db1b0f9cf2",
               "name": "chart7",
               "type": "Chart",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {
                 "title": {
@@ -19338,25 +19338,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "9c4521bf-6079-4099-971e-21e98db57dd6",
+                  "id": "eee62f0b-ab46-4e15-ae25-109366ffc996",
                   "type": "desktop",
                   "top": 300.00010681152344,
                   "left": 58.13953643696075,
                   "width": 17,
                   "height": 340,
-                  "componentId": "7f1e2b65-6ee7-4571-b2a3-cfbbeaa675ee"
+                  "componentId": "68df5337-a043-4207-81ab-a2db1b0f9cf2"
                 }
               ]
             },
             {
-              "id": "88dc6a0d-5428-48e1-878f-11d86c411c25",
+              "id": "267845ea-4d2f-422e-baa7-baccf63f51d6",
               "name": "chart3",
               "type": "Chart",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {
                 "title": {
@@ -19417,25 +19417,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "74aae20f-36ce-4efd-82ee-2cf6e488f2e4",
+                  "id": "bfb3f62d-ec04-4544-b310-a1a3a080c0e7",
                   "type": "desktop",
                   "top": 1080.0000305175781,
                   "left": 2.325579422129276,
                   "width": 41,
                   "height": 370,
-                  "componentId": "88dc6a0d-5428-48e1-878f-11d86c411c25"
+                  "componentId": "267845ea-4d2f-422e-baa7-baccf63f51d6"
                 }
               ]
             },
             {
-              "id": "54fa7b48-59fb-4cd7-9f46-8d0a1a8332a9",
+              "id": "387f6b48-9d1d-4cb6-a6dc-f00e3a70efb0",
               "name": "chart4",
               "type": "Chart",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {
                 "title": {
@@ -19496,25 +19496,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "853695e6-cfa9-4607-81fb-6ad83130eadc",
+                  "id": "50d5e9bb-221e-46ae-9dca-e3f317d166f4",
                   "type": "desktop",
                   "top": 300.00006103515625,
                   "left": 2.3255813953488373,
                   "width": 23,
                   "height": 340,
-                  "componentId": "54fa7b48-59fb-4cd7-9f46-8d0a1a8332a9"
+                  "componentId": "387f6b48-9d1d-4cb6-a6dc-f00e3a70efb0"
                 }
               ]
             },
             {
-              "id": "8c64be49-abb4-4673-bd5a-f59863e76429",
+              "id": "7be148a8-bde0-498f-97ba-5be7e0f9b1f0",
               "name": "statistics7",
               "type": "Statistics",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {
                 "primaryValueLabel": {
@@ -19573,25 +19573,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "44c4ff60-fd54-4c75-b674-bfff23ecf00a",
+                  "id": "11032751-8b51-4b83-a4dc-47cb78a8098f",
                   "type": "desktop",
                   "top": 100,
                   "left": 25.58138814731667,
                   "width": 9,
                   "height": 170,
-                  "componentId": "8c64be49-abb4-4673-bd5a-f59863e76429"
+                  "componentId": "7be148a8-bde0-498f-97ba-5be7e0f9b1f0"
                 }
               ]
             },
             {
-              "id": "0971d02f-25ab-49a8-b58b-dd0638eff0dd",
+              "id": "f95554ee-8411-4270-acfd-3b73820828bd",
               "name": "statistics8",
               "type": "Statistics",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {
                 "primaryValueLabel": {
@@ -19650,25 +19650,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "c9703665-1120-401e-b325-6695cf7fd9f3",
+                  "id": "0d5a63e4-40c4-4102-81c5-604b22ad933d",
                   "type": "desktop",
                   "top": 100,
                   "left": 48.83722559199734,
                   "width": 9.999999999999998,
                   "height": 170,
-                  "componentId": "0971d02f-25ab-49a8-b58b-dd0638eff0dd"
+                  "componentId": "f95554ee-8411-4270-acfd-3b73820828bd"
                 }
               ]
             },
             {
-              "id": "8ab4f348-ad6b-4691-aebc-a0530f41b16e",
+              "id": "3f787fc9-001f-4f31-be3f-fa78739e7d23",
               "name": "statistics5",
               "type": "Statistics",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {
                 "primaryValueLabel": {
@@ -19727,25 +19727,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "f675806a-19fa-4835-abf9-f273c598c80b",
+                  "id": "e2c20c6b-b7ec-4ea3-8928-7f68a90ad699",
                   "type": "desktop",
                   "top": 100,
                   "left": 2.3255829505748595,
                   "width": 9,
                   "height": 170,
-                  "componentId": "8ab4f348-ad6b-4691-aebc-a0530f41b16e"
+                  "componentId": "3f787fc9-001f-4f31-be3f-fa78739e7d23"
                 }
               ]
             },
             {
-              "id": "5a2da0ff-cf9d-4012-afea-3a7cac97013f",
+              "id": "9ca30354-c014-4cc8-b2e3-988e18c9cc1c",
               "name": "button1",
               "type": "Button",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {},
               "general": null,
@@ -19760,34 +19760,34 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:06:02.881Z",
-              "updatedAt": "2024-02-29T16:06:02.881Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "4609409a-c611-46d9-9333-f25f7941144d",
+                  "id": "c9287122-bb3b-457c-8a60-24d65c5533f7",
                   "type": "desktop",
                   "top": 1480,
                   "left": 90.69767441860465,
                   "width": 3,
                   "height": 30,
-                  "componentId": "5a2da0ff-cf9d-4012-afea-3a7cac97013f"
+                  "componentId": "9ca30354-c014-4cc8-b2e3-988e18c9cc1c"
                 },
                 {
-                  "id": "1c0c4b3d-e651-43e1-b1c8-e45a4709ee2d",
+                  "id": "310ad48e-f861-4240-9664-769cf6436bf3",
                   "type": "mobile",
                   "top": 1480,
                   "left": 90.69767441860465,
                   "width": 3,
                   "height": 30,
-                  "componentId": "5a2da0ff-cf9d-4012-afea-3a7cac97013f"
+                  "componentId": "9ca30354-c014-4cc8-b2e3-988e18c9cc1c"
                 }
               ]
             },
             {
-              "id": "f4fc22b0-9a7f-4227-a895-2e111b84ba57",
+              "id": "ba2cd280-0ccb-4532-9caa-c1b02c0b131e",
               "name": "button2",
               "type": "Button",
-              "pageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "parent": null,
               "properties": {},
               "general": null,
@@ -19802,147 +19802,147 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T16:06:54.267Z",
-              "updatedAt": "2024-02-29T16:06:54.267Z",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
               "layouts": [
                 {
-                  "id": "47859389-7229-4f1a-91ad-dbcffb111372",
+                  "id": "71029022-97ba-4ea8-b3d7-49d6ce717048",
                   "type": "desktop",
                   "top": 1480,
                   "left": 79.06976744186046,
                   "width": 3,
                   "height": 30,
-                  "componentId": "f4fc22b0-9a7f-4227-a895-2e111b84ba57"
+                  "componentId": "ba2cd280-0ccb-4532-9caa-c1b02c0b131e"
                 },
                 {
-                  "id": "fdc97334-c93b-4a0c-a3f5-992e335be954",
+                  "id": "b08cc453-05f6-4141-a7d7-0d6f14e16582",
                   "type": "mobile",
                   "top": 1480,
                   "left": 79.06976744186046,
                   "width": 3,
                   "height": 30,
-                  "componentId": "f4fc22b0-9a7f-4227-a895-2e111b84ba57"
+                  "componentId": "ba2cd280-0ccb-4532-9caa-c1b02c0b131e"
+                }
+              ]
+            },
+            {
+              "id": "e0ee7050-2623-4f6b-a295-501fe2520397",
+              "name": "button3",
+              "type": "Button",
+              "pageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-02-29T16:08:19.171Z",
+              "updatedAt": "2024-02-29T16:08:19.171Z",
+              "layouts": [
+                {
+                  "id": "e51ea8f8-8887-479b-80a3-299a1bcc0551",
+                  "type": "desktop",
+                  "top": 1480,
+                  "left": 65.11627906976744,
+                  "width": 3,
+                  "height": 30,
+                  "componentId": "e0ee7050-2623-4f6b-a295-501fe2520397"
+                },
+                {
+                  "id": "19668242-ade6-4b7b-9692-0571230eedcf",
+                  "type": "mobile",
+                  "top": 1480,
+                  "left": 65.11627906976744,
+                  "width": 3,
+                  "height": 30,
+                  "componentId": "e0ee7050-2623-4f6b-a295-501fe2520397"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "id": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "name": "Home",
               "handle": "home",
               "index": 0,
               "disabled": false,
               "hidden": false,
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4"
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121"
             }
           ],
           "events": [
             {
-              "id": "51e11837-58e2-4c06-9130-a4a754fc3a25",
+              "id": "521dc1d2-1b2a-49e7-9103-4ad61502a609",
               "name": "onDataQuerySuccess",
               "index": 0,
               "event": {
                 "eventId": "onDataQuerySuccess",
                 "message": "Hello world!",
-                "queryId": "7e135bd9-f591-41ef-9467-017318b00b7d",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "runjs1",
-                "parameters": {}
-              },
-              "sourceId": "134b7182-074b-46f1-85a9-e15a2ee0726d",
-              "target": "data_query",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:45.403Z"
-            },
-            {
-              "id": "9a2e6b4f-b723-457e-80a9-2e4193f3d545",
-              "name": "onDataQuerySuccess",
-              "index": 0,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "32624a95-3bd8-4efd-a39b-72d161577778",
+                "queryId": "688733ac-5538-4207-95c3-ec6771a5d6da",
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "orderStatusDistributionChartWithColors",
                 "parameters": {}
               },
-              "sourceId": "7e135bd9-f591-41ef-9467-017318b00b7d",
+              "sourceId": "60e77c8d-63cf-485f-bdf2-c3f19ca18cce",
               "target": "data_query",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:45.410Z"
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "9860de30-9e44-466e-87c2-cb2f44365566",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "60e77c8d-63cf-485f-bdf2-c3f19ca18cce",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "runjs1",
+                "parameters": {}
+              },
+              "sourceId": "f9304284-a630-4203-9526-e3f2ef5d9226",
+              "target": "data_query",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "fc188f79-d669-4e64-a5d1-f13402daa8c9",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "60e77c8d-63cf-485f-bdf2-c3f19ca18cce",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "runjs1",
+                "parameters": {}
+              },
+              "sourceId": "9e901566-643c-47f8-a106-3f4b28588cdf",
+              "target": "data_query",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
             }
           ],
           "dataQueries": [
             {
-              "id": "73a91cb3-8d44-4106-a92d-ea548d0d6998",
-              "name": "orderPriorityDistribution",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    O_ORDERPRIORITY AS orderPriority,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nGROUP BY\n    O_ORDERPRIORITY\nORDER BY\n    O_ORDERPRIORITY;",
-                "transformation": "return data.map((row) => ({x: row.ORDERPRIORITY, y: row.ORDERCOUNT}));",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.435Z"
-            },
-            {
-              "id": "062e5e7d-3ac1-4330-86b0-1fc504e7b1fd",
-              "name": "totalClerksPrevMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.456Z"
-            },
-            {
-              "id": "cc94690f-66c1-4a9e-8c48-9d5722f2e41e",
-              "name": "salesPerYear",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "SELECT\n    EXTRACT(YEAR FROM o_orderdate)+25 AS YEAR,\n    COUNT(*) AS order_count\nFROM\n    ORDERS\nGROUP BY\n    EXTRACT(YEAR FROM o_orderdate)\nORDER BY\n    EXTRACT(YEAR FROM o_orderdate);",
-                "runOnPageLoad": true,
-                "transformation": "return data.map((row) => ({x: row.YEAR, y: row.ORDER_COUNT}));"
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.445Z"
-            },
-            {
-              "id": "32624a95-3bd8-4efd-a39b-72d161577778",
-              "name": "orderStatusDistributionChartWithColors",
-              "options": {
-                "code": "function generateShadesOfColor(baseColor, numShades) {\n  const match = baseColor.match(/^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i);\n  if (!match) {\n    throw new Error(\n      \"Invalid color format. Please use hexadecimal color notation.\"\n    );\n  }\n\n  const [, r, g, b] = match.map((hex) => parseInt(hex, 16));\n\n  const shades = [];\n  for (let i = 0; i < numShades; i++) {\n    const newR = Math.floor(r * (1 - i / numShades));\n    const newG = Math.floor(g * (1 - i / numShades));\n    const newB = Math.floor(b * (1 - i / numShades));\n\n    const shade = `#${newR.toString(16).padStart(2, \"0\")}${newG\n      .toString(16)\n      .padStart(2, \"0\")}${newB.toString(16).padStart(2, \"0\")}`;\n    shades.push(shade);\n  }\n\n  return shades;\n}\n\ndata = queries.orderStatusDistributionChart.data;\nconst baseColor = \"#2f54b7\";\nconst numShades = data.data[0].values.length;\nconst shades = generateShadesOfColor(baseColor, numShades);\ndata.data[0].marker.colors = shades;\nreturn data;",
-                "hasParamSupport": true,
-                "parameters": []
-              },
-              "dataSourceId": "608128dc-e0fd-4e04-8362-ff063d8e4424",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z"
-            },
-            {
-              "id": "7e135bd9-f591-41ef-9467-017318b00b7d",
+              "id": "60e77c8d-63cf-485f-bdf2-c3f19ca18cce",
               "name": "orderStatusDistributionChart",
               "options": {
                 "code": "data = queries.orderStatusDistribution.data;\n\nformat = {\n  data: [\n    {\n      type: \"pie\",\n      labels: [],\n      values: [],\n      textinfo: \"label+percent\",\n      textposition: \"inside\",\n      textfont: {\n        color: \"#ffffff\",\n        size: 14,\n      },\n      marker: {\n        colors: [],\n      },\n    },\n  ],\n  layout: {\n    title: \"Order status distribution\",\n    showlegend: false,\n    height: 500,\n    width: 700,\n    margin: {\n      l: 50,\n      r: 50,\n      t: 50,\n      b: 50,\n    },\n  },\n};\n\ndata.forEach((order) => {\n  format.data[0].labels.push(order.ORDERSTATUS);\n  format.data[0].values.push(order.ORDERCOUNT);\n});\n\nreturn format;",
@@ -19954,115 +19954,18 @@
                     "actionId": "run-query",
                     "message": "Hello world!",
                     "alertType": "info",
-                    "queryId": "df79438a-3d1a-4cfe-946d-e5d849518da5",
                     "queryName": "orderStatusDistributionChartWithColors",
                     "parameters": {}
                   }
                 ]
               },
-              "dataSourceId": "608128dc-e0fd-4e04-8362-ff063d8e4424",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z"
+              "dataSourceId": "8bee3bcd-94c2-4b25-aa30-2e4d7bd59e0e",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
             },
             {
-              "id": "48e6acba-6031-4516-995b-05e6bb38cb47",
-              "name": "avgOrderValuePrevMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.472Z"
-            },
-            {
-              "id": "89a7e35c-5f8b-4421-85ea-4a0115fd9bfa",
-              "name": "totalCustomersPrevMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
-                "runOnPageLoad": true,
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};"
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.025Z"
-            },
-            {
-              "id": "b69e3d12-a8bc-44c9-84b0-0e5841af059a",
-              "name": "totalCustomersCurrentMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(DISTINCT O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.068Z"
-            },
-            {
-              "id": "288538bc-0044-41ab-a464-888d69750346",
-              "name": "revenueCurrentMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.457Z"
-            },
-            {
-              "id": "ba5e0c6a-5817-468a-bf57-d391585cd0e4",
-              "name": "revenuePrevMonth",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
-                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.254Z"
-            },
-            {
-              "id": "a05bfe21-55a1-4fc8-a1fd-16d6d04ef576",
-              "name": "salesPerMonthCurrentYear",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n),\nMonthlyData AS (\n    SELECT\n        EXTRACT(MONTH FROM o_orderdate) AS Month,\n        COUNT(*) AS NumberOfOrders\n    FROM ORDERS\n    WHERE EXTRACT(YEAR FROM o_orderdate) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\n    GROUP BY EXTRACT(MONTH FROM o_orderdate)\n    ORDER BY EXTRACT(MONTH FROM o_orderdate)\n),\nAllMonths AS (\n    SELECT 1 AS MonthNum, 'Jan' AS MonthName\n    UNION ALL SELECT 2, 'Feb'\n    UNION ALL SELECT 3, 'Mar'\n    UNION ALL SELECT 4, 'Apr'\n    UNION ALL SELECT 5, 'May'\n    UNION ALL SELECT 6, 'Jun'\n    UNION ALL SELECT 7, 'Jul'\n    UNION ALL SELECT 8, 'Aug'\n    UNION ALL SELECT 9, 'Sep'\n    UNION ALL SELECT 10, 'Oct'\n    UNION ALL SELECT 11, 'Nov'\n    UNION ALL SELECT 12, 'Dec'\n)\nSELECT\n    AllMonths.MonthName,\n    COALESCE(MonthlyData.NumberOfOrders, 0) AS TotalOrders\nFROM\n    AllMonths\nLEFT JOIN MonthlyData ON MonthlyData.Month = AllMonths.MonthNum;",
-                "runOnPageLoad": true,
-                "transformation": "return data.map((row) => ({x: row.MONTHNAME, y: row.TOTALORDERS}));"
-              },
-              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.380Z"
-            },
-            {
-              "id": "134b7182-074b-46f1-85a9-e15a2ee0726d",
+              "id": "f9304284-a630-4203-9526-e3f2ef5d9226",
               "name": "orderStatusDistribution",
               "options": {
                 "code": "data = queries.getCustomerOrders.data;\n\nformat = {\n  data: [\n    {\n      type: \"pie\",\n      labels: [],\n      values: [],\n      textinfo: \"label+percent\",\n      textposition: \"inside\",\n      textfont: {\n        color: \"#ffffff\",\n        size: 14,\n      },\n      marker: {\n        colors: [],\n      },\n    },\n  ],\n  layout: {\n    title: \"\",\n    showlegend: false,\n    height: 500,\n    width: 700,\n    margin: {\n      l: 50,\n      r: 50,\n      t: 50,\n      b: 50,\n    },\n  },\n};\n\ndata.forEach((order) => {\n  format.data[0].labels.push(`Prod. #${order.product_id}`);\n  format.data[0].values.push(parseFloat(order.total_price.toFixed(2)));\n});\n\nreturn format;",
@@ -20077,19 +19980,217 @@
                     "actionId": "run-query",
                     "message": "Hello world!",
                     "alertType": "info",
-                    "queryId": "fecb146d-b248-484b-a115-2936747512b4",
+                    "queryName": "runjs1",
+                    "parameters": {}
+                  }
+                ]
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.233Z"
+            },
+            {
+              "id": "9e901566-643c-47f8-a106-3f4b28588cdf",
+              "name": "orderStatusDistribution",
+              "options": {
+                "code": "data = queries.getCustomerOrders.data;\n\nformat = {\n  data: [\n    {\n      type: \"pie\",\n      labels: [],\n      values: [],\n      textinfo: \"label+percent\",\n      textposition: \"inside\",\n      textfont: {\n        color: \"#ffffff\",\n        size: 14,\n      },\n      marker: {\n        colors: [],\n      },\n    },\n  ],\n  layout: {\n    title: \"\",\n    showlegend: false,\n    height: 500,\n    width: 700,\n    margin: {\n      l: 50,\n      r: 50,\n      t: 50,\n      b: 50,\n    },\n  },\n};\n\ndata.forEach((order) => {\n  format.data[0].labels.push(`Prod. #${order.product_id}`);\n  format.data[0].values.push(parseFloat(order.total_price.toFixed(2)));\n});\n\nreturn format;",
+                "hasParamSupport": true,
+                "parameters": [],
+                "mode": "sql",
+                "query": "SELECT\n    O_ORDERSTATUS AS orderStatus,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nGROUP BY\n    O_ORDERSTATUS\nORDER BY\n    O_ORDERSTATUS;",
+                "runOnPageLoad": true,
+                "events": [
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
                     "queryName": "runjs1",
                     "parameters": {}
                   }
                 ]
               },
               "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:27.722Z"
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.676Z"
             },
             {
-              "id": "92b8b068-77c2-4f25-87e0-3f3e26b0e83f",
+              "id": "68b9553e-b037-4d87-a11c-aa481c47ad1e",
+              "name": "avgOrderValuePrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.383Z"
+            },
+            {
+              "id": "e98b4f88-7ac9-4e2d-970c-e0185212a514",
+              "name": "salesPerYear",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "SELECT\n    EXTRACT(YEAR FROM o_orderdate)+25 AS YEAR,\n    COUNT(*) AS order_count\nFROM\n    ORDERS\nGROUP BY\n    EXTRACT(YEAR FROM o_orderdate)\nORDER BY\n    EXTRACT(YEAR FROM o_orderdate);",
+                "runOnPageLoad": true,
+                "transformation": "return data.map((row) => ({x: row.YEAR, y: row.ORDER_COUNT}));"
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.571Z"
+            },
+            {
+              "id": "9f91e086-b5b9-4765-8f7a-47bb2fe472b6",
+              "name": "orderPriorityDistribution",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    O_ORDERPRIORITY AS orderPriority,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nGROUP BY\n    O_ORDERPRIORITY\nORDER BY\n    O_ORDERPRIORITY;",
+                "transformation": "return data.map((row) => ({x: row.ORDERPRIORITY, y: row.ORDERCOUNT}));",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.445Z"
+            },
+            {
+              "id": "f0ec887d-cd5e-4915-b3de-15c072dc71dd",
+              "name": "salesPerYear",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "SELECT\n    EXTRACT(YEAR FROM o_orderdate)+25 AS YEAR,\n    COUNT(*) AS order_count\nFROM\n    ORDERS\nGROUP BY\n    EXTRACT(YEAR FROM o_orderdate)\nORDER BY\n    EXTRACT(YEAR FROM o_orderdate);",
+                "runOnPageLoad": true,
+                "transformation": "return data.map((row) => ({x: row.YEAR, y: row.ORDER_COUNT}));"
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.603Z"
+            },
+            {
+              "id": "688733ac-5538-4207-95c3-ec6771a5d6da",
+              "name": "orderStatusDistributionChartWithColors",
+              "options": {
+                "code": "function generateShadesOfColor(baseColor, numShades) {\n  const match = baseColor.match(/^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i);\n  if (!match) {\n    throw new Error(\n      \"Invalid color format. Please use hexadecimal color notation.\"\n    );\n  }\n\n  const [, r, g, b] = match.map((hex) => parseInt(hex, 16));\n\n  const shades = [];\n  for (let i = 0; i < numShades; i++) {\n    const newR = Math.floor(r * (1 - i / numShades));\n    const newG = Math.floor(g * (1 - i / numShades));\n    const newB = Math.floor(b * (1 - i / numShades));\n\n    const shade = `#${newR.toString(16).padStart(2, \"0\")}${newG\n      .toString(16)\n      .padStart(2, \"0\")}${newB.toString(16).padStart(2, \"0\")}`;\n    shades.push(shade);\n  }\n\n  return shades;\n}\n\ndata = queries.orderStatusDistributionChart.data;\nconst baseColor = \"#2f54b7\";\nconst numShades = data.data[0].values.length;\nconst shades = generateShadesOfColor(baseColor, numShades);\ndata.data[0].marker.colors = shades;\nreturn data;",
+                "hasParamSupport": true,
+                "parameters": []
+              },
+              "dataSourceId": "8bee3bcd-94c2-4b25-aa30-2e4d7bd59e0e",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "dd306830-f3ab-47ba-9f5d-b1846c7e8c70",
+              "name": "revenueCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.531Z"
+            },
+            {
+              "id": "43a318b5-692a-4c23-851f-2d525247b874",
+              "name": "revenuePrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:01.399Z"
+            },
+            {
+              "id": "75394628-4976-486b-9bd2-6ea179754d2b",
+              "name": "salesPerMonthCurrentYear",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n),\nMonthlyData AS (\n    SELECT\n        EXTRACT(MONTH FROM o_orderdate) AS Month,\n        COUNT(*) AS NumberOfOrders\n    FROM ORDERS\n    WHERE EXTRACT(YEAR FROM o_orderdate) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\n    GROUP BY EXTRACT(MONTH FROM o_orderdate)\n    ORDER BY EXTRACT(MONTH FROM o_orderdate)\n),\nAllMonths AS (\n    SELECT 1 AS MonthNum, 'Jan' AS MonthName\n    UNION ALL SELECT 2, 'Feb'\n    UNION ALL SELECT 3, 'Mar'\n    UNION ALL SELECT 4, 'Apr'\n    UNION ALL SELECT 5, 'May'\n    UNION ALL SELECT 6, 'Jun'\n    UNION ALL SELECT 7, 'Jul'\n    UNION ALL SELECT 8, 'Aug'\n    UNION ALL SELECT 9, 'Sep'\n    UNION ALL SELECT 10, 'Oct'\n    UNION ALL SELECT 11, 'Nov'\n    UNION ALL SELECT 12, 'Dec'\n)\nSELECT\n    AllMonths.MonthName,\n    COALESCE(MonthlyData.NumberOfOrders, 0) AS TotalOrders\nFROM\n    AllMonths\nLEFT JOIN MonthlyData ON MonthlyData.Month = AllMonths.MonthNum;",
+                "runOnPageLoad": true,
+                "transformation": "return data.map((row) => ({x: row.MONTHNAME, y: row.TOTALORDERS}));"
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.210Z"
+            },
+            {
+              "id": "7a2e10ea-3ed5-4070-b0d9-5fc5f3cf0f3c",
+              "name": "totalClerksCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.688Z"
+            },
+            {
+              "id": "494d723b-d5f6-4dd6-b8a7-c024caeed7e1",
+              "name": "avgOrderValueCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.692Z"
+            },
+            {
+              "id": "5d3720f5-8592-4a0b-b507-53a94156d248",
+              "name": "orderPriorityDistribution",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    O_ORDERPRIORITY AS orderPriority,\n    COUNT(*) AS orderCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nGROUP BY\n    O_ORDERPRIORITY\nORDER BY\n    O_ORDERPRIORITY;",
+                "transformation": "return data.map((row) => ({x: row.ORDERPRIORITY, y: row.ORDERCOUNT}));",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.682Z"
+            },
+            {
+              "id": "452ae2aa-5d1a-47ec-b604-38c58ba8782e",
               "name": "totalClerksCurrentMonth",
               "options": {
                 "mode": "sql",
@@ -20100,12 +20201,28 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.300Z"
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:01.883Z"
             },
             {
-              "id": "a9a6de03-1df9-472c-ae3a-edf79a91acb1",
+              "id": "bdb2f5b6-133a-4258-abd0-7460194db8e1",
+              "name": "salesPerMonthCurrentYear",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n),\nMonthlyData AS (\n    SELECT\n        EXTRACT(MONTH FROM o_orderdate) AS Month,\n        COUNT(*) AS NumberOfOrders\n    FROM ORDERS\n    WHERE EXTRACT(YEAR FROM o_orderdate) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\n    GROUP BY EXTRACT(MONTH FROM o_orderdate)\n    ORDER BY EXTRACT(MONTH FROM o_orderdate)\n),\nAllMonths AS (\n    SELECT 1 AS MonthNum, 'Jan' AS MonthName\n    UNION ALL SELECT 2, 'Feb'\n    UNION ALL SELECT 3, 'Mar'\n    UNION ALL SELECT 4, 'Apr'\n    UNION ALL SELECT 5, 'May'\n    UNION ALL SELECT 6, 'Jun'\n    UNION ALL SELECT 7, 'Jul'\n    UNION ALL SELECT 8, 'Aug'\n    UNION ALL SELECT 9, 'Sep'\n    UNION ALL SELECT 10, 'Oct'\n    UNION ALL SELECT 11, 'Nov'\n    UNION ALL SELECT 12, 'Dec'\n)\nSELECT\n    AllMonths.MonthName,\n    COALESCE(MonthlyData.NumberOfOrders, 0) AS TotalOrders\nFROM\n    AllMonths\nLEFT JOIN MonthlyData ON MonthlyData.Month = AllMonths.MonthNum;",
+                "runOnPageLoad": true,
+                "transformation": "return data.map((row) => ({x: row.MONTHNAME, y: row.TOTALORDERS}));"
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.602Z"
+            },
+            {
+              "id": "a42b7744-e207-481a-b506-f94a1a0d107b",
               "name": "avgOrderValueCurrentMonth",
               "options": {
                 "mode": "sql",
@@ -20116,83 +20233,227 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:05:28.484Z"
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.014Z"
+            },
+            {
+              "id": "cef67d76-cc27-4a89-a23d-583b4cd90c62",
+              "name": "revenueCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:01.140Z"
+            },
+            {
+              "id": "90605a9f-a85a-423d-949d-49b80b7a67a7",
+              "name": "totalCustomersPrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "runOnPageLoad": true,
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};"
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:01.488Z"
+            },
+            {
+              "id": "4bdb84e6-6b42-410e-a593-3a8d7c5d7f08",
+              "name": "revenuePrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    SUM(O_TOTALPRICE) AS totalRevenue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALREVENUE: data[0].TOTALREVENUE, TOTALREVENUEFORMATTED: formatNumber(data[0].TOTALREVENUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:01.644Z"
+            },
+            {
+              "id": "d43a17b7-dcf4-4795-8fa5-c11e3aaf3d73",
+              "name": "totalClerksPrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.161Z"
+            },
+            {
+              "id": "50fb3e2e-e49e-4c1b-8001-700fdecb2310",
+              "name": "totalCustomersCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(DISTINCT O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.438Z"
+            },
+            {
+              "id": "56806ac0-d4c7-484d-b6ca-96995d7ed176",
+              "name": "avgOrderValuePrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    AVG(O_TOTALPRICE) AS avgOrderValue\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {AVGORDERVALUE: data[0].AVGORDERVALUE, AVGORDERVALUEFORMATTED: formatNumber(data[0].AVGORDERVALUE)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.607Z"
+            },
+            {
+              "id": "93117e6e-e03a-4258-a3fd-3bbea0c69ae7",
+              "name": "totalCustomersPrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "runOnPageLoad": true,
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};"
+              },
+              "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.652Z"
+            },
+            {
+              "id": "0c7e30c6-5460-4810-afd4-5596caa560a0",
+              "name": "totalClerksPrevMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    count(DISTINCT O_CLERK) AS totalClerks\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT DATEADD(MONTH, -1, MaxDate) FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {TOTALCLERKS: data[0].TOTALCLERKS, TOTALCLERKSFORMATTED: formatNumber(data[0].TOTALCLERKS)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.654Z"
+            },
+            {
+              "id": "a693763f-8bf6-4bc5-b102-691e429db233",
+              "name": "totalCustomersCurrentMonth",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "query": "WITH MaxOrderDate AS (\n    SELECT MAX(O_ORDERDATE) AS MaxDate\n    FROM ORDERS\n)\n\nSELECT\n    COUNT(DISTINCT O_CUSTKEY) AS customerCount\nFROM\n    ORDERS\nWHERE\n    EXTRACT(YEAR FROM O_ORDERDATE) = EXTRACT(YEAR FROM (SELECT MaxDate FROM MaxOrderDate))\nAND\n    EXTRACT(MONTH FROM O_ORDERDATE) = EXTRACT(MONTH FROM (SELECT MaxDate FROM MaxOrderDate));",
+                "transformation": "function formatNumber(number) {\n    if (number < 1e3) {\n        return number.toString();\n    } else if (number < 1e6) {\n        return (number / 1e3).toFixed(1) + \"K\";\n    } else if (number < 1e9) {\n        return (number / 1e6).toFixed(1) + \"M\";\n    } else if (number < 1e12) {\n        return (number / 1e9).toFixed(1) + \"B\";\n    } else {\n        return (number / 1e12).toFixed(1) + \"T\";\n    }\n}\n\nreturn {CUSTOMERCOUNT: data[0].CUSTOMERCOUNT, CUSTOMERCOUNTFORMATTED: formatNumber(data[0].CUSTOMERCOUNT)};",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:08:02.680Z"
             }
           ],
           "dataSources": [
             {
-              "id": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
-              "name": "snowflake",
-              "kind": "snowflake",
-              "type": "default",
-              "pluginId": null,
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "organizationId": "9ddf0348-adb7-482a-961b-5046c527bf09",
-              "scope": "global",
-              "createdAt": "2024-02-29T16:04:44.813Z",
-              "updatedAt": "2024-02-29T16:04:44.813Z"
-            },
-            {
-              "id": "c224804c-34a6-4c5b-8e9e-c4f711b8b1d4",
+              "id": "04e6bf29-81c7-49fe-80bd-1cb84c19490e",
               "name": "restapidefault",
               "kind": "restapi",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2024-02-29T16:04:44.823Z",
-              "updatedAt": "2024-02-29T16:04:44.823Z"
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
             },
             {
-              "id": "608128dc-e0fd-4e04-8362-ff063d8e4424",
+              "id": "8bee3bcd-94c2-4b25-aa30-2e4d7bd59e0e",
               "name": "runjsdefault",
               "kind": "runjs",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2024-02-29T16:04:44.840Z",
-              "updatedAt": "2024-02-29T16:04:44.840Z"
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
             },
             {
-              "id": "0d0572b6-2cf5-4828-8d5b-be437d81ad3f",
+              "id": "a0c55d7b-a261-44e7-bdff-8afc81c9454b",
               "name": "runpydefault",
               "kind": "runpy",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2024-02-29T16:04:44.850Z",
-              "updatedAt": "2024-02-29T16:04:44.850Z"
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
             },
             {
-              "id": "1f725faa-bfe7-4174-accf-933388ece0f3",
+              "id": "7b8cacea-cc73-4f85-9830-2fc1a39f706f",
               "name": "tooljetdbdefault",
               "kind": "tooljetdb",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2024-02-29T16:04:44.866Z",
-              "updatedAt": "2024-02-29T16:04:44.866Z"
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
             },
             {
-              "id": "90fdbc2b-450e-4555-860c-5947e8c0eeb1",
+              "id": "9071c355-938b-43dd-90d0-73e9c36c171b",
               "name": "workflowsdefault",
               "kind": "workflows",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "b09883b9-ce05-405b-8e0e-19bddca054d4",
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2024-02-29T16:04:44.878Z",
-              "updatedAt": "2024-02-29T16:04:44.878Z"
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "name": "snowflake",
+              "kind": "snowflake",
+              "type": "default",
+              "pluginId": null,
+              "appVersionId": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
             },
             {
               "id": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
@@ -20209,8 +20470,8 @@
           ],
           "appVersions": [
             {
-              "id": "b09883b9-ce05-405b-8e0e-19bddca054d4",
-              "name": "v1",
+              "id": "1d33a7a2-6f89-4170-b872-723c00dd1121",
+              "name": "v2",
               "definition": {
                 "showViewerNavigation": false,
                 "homePageId": "cbd7f186-e2c5-4443-97c6-ccb0e7f37f38",
@@ -39061,12 +39322,12 @@
                 "backgroundFxQuery": ""
               },
               "showViewerNavigation": false,
-              "homePageId": "77d51b37-ac54-489d-947f-6d6ecb2064e0",
+              "homePageId": "179fecab-6424-4a19-bd9b-94041b1a439e",
               "appId": "8995f877-92f8-445d-a47b-6f77aeae7147",
               "currentEnvironmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
               "promotedFrom": null,
-              "createdAt": "2024-02-29T16:04:44.767Z",
-              "updatedAt": "2024-02-29T16:06:54.286Z"
+              "createdAt": "2024-02-29T16:07:51.245Z",
+              "updatedAt": "2024-02-29T16:08:19.197Z"
             }
           ],
           "appEnvironments": [
@@ -39102,126 +39363,6 @@
             }
           ],
           "dataSourceOptions": [
-            {
-              "id": "f4fac994-e858-410a-a25f-d59fc85ad1c7",
-              "dataSourceId": "c224804c-34a6-4c5b-8e9e-c4f711b8b1d4",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.834Z",
-              "updatedAt": "2024-02-29T16:04:44.834Z"
-            },
-            {
-              "id": "7bfba877-011e-4725-80f3-9177b2b21371",
-              "dataSourceId": "c224804c-34a6-4c5b-8e9e-c4f711b8b1d4",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.834Z",
-              "updatedAt": "2024-02-29T16:04:44.834Z"
-            },
-            {
-              "id": "54c22435-48f3-4d3e-8c43-e2de9c968bad",
-              "dataSourceId": "c224804c-34a6-4c5b-8e9e-c4f711b8b1d4",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.834Z",
-              "updatedAt": "2024-02-29T16:04:44.834Z"
-            },
-            {
-              "id": "76e41947-6bc2-4543-afea-927fb675587a",
-              "dataSourceId": "608128dc-e0fd-4e04-8362-ff063d8e4424",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.847Z",
-              "updatedAt": "2024-02-29T16:04:44.847Z"
-            },
-            {
-              "id": "816c0932-9fda-4d10-b41c-fd5fe777302f",
-              "dataSourceId": "608128dc-e0fd-4e04-8362-ff063d8e4424",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.847Z",
-              "updatedAt": "2024-02-29T16:04:44.847Z"
-            },
-            {
-              "id": "297dd5a2-48ce-4647-bce7-00ca9d459e45",
-              "dataSourceId": "608128dc-e0fd-4e04-8362-ff063d8e4424",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.847Z",
-              "updatedAt": "2024-02-29T16:04:44.847Z"
-            },
-            {
-              "id": "51ba6d65-c4d0-4672-be02-faa76633b55c",
-              "dataSourceId": "0d0572b6-2cf5-4828-8d5b-be437d81ad3f",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.860Z",
-              "updatedAt": "2024-02-29T16:04:44.860Z"
-            },
-            {
-              "id": "192d53ff-b330-4c78-8cba-dae1b4b9946b",
-              "dataSourceId": "0d0572b6-2cf5-4828-8d5b-be437d81ad3f",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.861Z",
-              "updatedAt": "2024-02-29T16:04:44.861Z"
-            },
-            {
-              "id": "dc36dce9-653b-425f-8986-6b80bf278655",
-              "dataSourceId": "0d0572b6-2cf5-4828-8d5b-be437d81ad3f",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.861Z",
-              "updatedAt": "2024-02-29T16:04:44.861Z"
-            },
-            {
-              "id": "d37b37a8-b0a9-4bf6-b01a-ab315726ffab",
-              "dataSourceId": "1f725faa-bfe7-4174-accf-933388ece0f3",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.873Z",
-              "updatedAt": "2024-02-29T16:04:44.873Z"
-            },
-            {
-              "id": "bb7a06af-8b7b-4cf8-bdac-57082641bf02",
-              "dataSourceId": "1f725faa-bfe7-4174-accf-933388ece0f3",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.873Z",
-              "updatedAt": "2024-02-29T16:04:44.873Z"
-            },
-            {
-              "id": "85eb072d-f95d-4f1b-b819-2b57c51c9624",
-              "dataSourceId": "1f725faa-bfe7-4174-accf-933388ece0f3",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.873Z",
-              "updatedAt": "2024-02-29T16:04:44.873Z"
-            },
-            {
-              "id": "68a2904a-2372-4fef-8cb6-e17196c5b1af",
-              "dataSourceId": "90fdbc2b-450e-4555-860c-5947e8c0eeb1",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.887Z",
-              "updatedAt": "2024-02-29T16:04:44.887Z"
-            },
-            {
-              "id": "17643c4e-36e8-4cad-b482-b73b98116647",
-              "dataSourceId": "90fdbc2b-450e-4555-860c-5947e8c0eeb1",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.887Z",
-              "updatedAt": "2024-02-29T16:04:44.887Z"
-            },
-            {
-              "id": "9c4cd0ea-0145-45e0-8de4-3a761ae32442",
-              "dataSourceId": "90fdbc2b-450e-4555-860c-5947e8c0eeb1",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T16:04:44.887Z",
-              "updatedAt": "2024-02-29T16:04:44.887Z"
-            },
             {
               "id": "782800b0-75d1-49df-abeb-cbdcdad08867",
               "dataSourceId": "0d1a8ab6-9a07-484d-af3d-7d8d5fbc7511",
@@ -39332,6 +39473,237 @@
               },
               "createdAt": "2024-02-29T16:04:44.962Z",
               "updatedAt": "2024-02-29T16:04:44.962Z"
+            },
+            {
+              "id": "dcf71f8a-b4c9-4729-b134-2668a05dad3c",
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {
+                "username": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "account": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "87be94f6-cd15-4ed5-8b30-d5d9e81a1e5d",
+                  "encrypted": true
+                },
+                "database": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "schema": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "warehouse": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "role": {
+                  "value": "",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "8dab6407-3cf7-40d2-a9b5-c93166624a2d",
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {
+                "username": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "account": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "7853c00c-4de4-40f8-a3e5-0a0b41aadcf8",
+                  "encrypted": true
+                },
+                "database": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "schema": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "warehouse": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "role": {
+                  "value": "",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "3759d613-0f4b-4890-a5ca-956ae1972ca7",
+              "dataSourceId": "31db9f31-93da-4ef9-8036-bc8d93c862bc",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {
+                "username": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "account": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "79192fc2-557c-4ecb-9406-a2daf9150622",
+                  "encrypted": true
+                },
+                "database": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "schema": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "warehouse": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "role": {
+                  "value": "",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "2270767e-30f1-4676-ace8-5619aac98cd2",
+              "dataSourceId": "7b8cacea-cc73-4f85-9830-2fc1a39f706f",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "e52c83ab-4d0c-4255-a779-41bdf2d256e4",
+              "dataSourceId": "7b8cacea-cc73-4f85-9830-2fc1a39f706f",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "0b989069-4b6d-42a1-9cba-4ad50af62e96",
+              "dataSourceId": "7b8cacea-cc73-4f85-9830-2fc1a39f706f",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "c9e6464e-e106-4b69-8fde-e0856916f25a",
+              "dataSourceId": "8bee3bcd-94c2-4b25-aa30-2e4d7bd59e0e",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "8057d382-034d-4acf-938e-c6ffed3537fd",
+              "dataSourceId": "8bee3bcd-94c2-4b25-aa30-2e4d7bd59e0e",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "c8eaf052-6eac-49a7-8a1f-8f64d2d3f028",
+              "dataSourceId": "8bee3bcd-94c2-4b25-aa30-2e4d7bd59e0e",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "b31a1971-4f6d-421e-8352-9db7f080049b",
+              "dataSourceId": "9071c355-938b-43dd-90d0-73e9c36c171b",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "55a8c410-a809-47de-be9b-a7a7f41f1ac9",
+              "dataSourceId": "9071c355-938b-43dd-90d0-73e9c36c171b",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "68df8cbf-12b7-4516-b407-67db80ce082c",
+              "dataSourceId": "9071c355-938b-43dd-90d0-73e9c36c171b",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "9469ea73-5fd9-4979-9592-5a3d3d5844b5",
+              "dataSourceId": "a0c55d7b-a261-44e7-bdff-8afc81c9454b",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "65253c2e-aa26-459e-81d0-65835073e0bc",
+              "dataSourceId": "a0c55d7b-a261-44e7-bdff-8afc81c9454b",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "eee18a20-656a-4528-b97b-740226d15f2e",
+              "dataSourceId": "04e6bf29-81c7-49fe-80bd-1cb84c19490e",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "509f8a0c-d2ef-4e12-96cb-eb94ca726121",
+              "dataSourceId": "a0c55d7b-a261-44e7-bdff-8afc81c9454b",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "0d45d9a1-145d-444b-90d2-b210c9990190",
+              "dataSourceId": "04e6bf29-81c7-49fe-80bd-1cb84c19490e",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
+            },
+            {
+              "id": "b5e7711c-652d-4a49-a35e-0ed909051129",
+              "dataSourceId": "04e6bf29-81c7-49fe-80bd-1cb84c19490e",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T16:07:50.976Z",
+              "updatedAt": "2024-02-29T16:07:50.976Z"
             }
           ],
           "schemaDetails": {
